@@ -2,7 +2,10 @@ module github.com/mihaitodor/benthos-vader
 
 go 1.18
 
-require github.com/benthosdev/benthos/v4 v4.0.0
+require (
+	github.com/benthosdev/benthos/v4 v4.0.0
+	github.com/jonreiter/govader v0.0.0-20220408022859-68ffa1d6eff4
+)
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
@@ -106,7 +109,6 @@ require (
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jhump/protoreflect v1.10.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/jonreiter/govader v0.0.0-20220408022859-68ffa1d6eff4 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/klauspost/compress v1.15.1 // indirect
 	github.com/kr/fs v0.1.0 // indirect
